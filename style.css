@@ -1,0 +1,65 @@
+
+body{
+    background-color: #aeced8;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold; 
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+.card-body{
+    background-color: white;
+}
+
+.main-div{
+	height: 300px;
+	width: 500px;
+    
+}
+input{
+width: 500px;
+}
+.overall {
+    background-color: white;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.box{
+	 display: flex;
+    justify-content:center;   
+}
+.keyboard {
+margin: 0;
+padding: 0;
+background-color: white;
+}
+.keyboard li {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    background: url("images/keyboard-key.png") ;
+    border: 1px solid #f9f9f9;
+	 background-size: cover; 
+}
+#space{
+	width: 100px !important;
+    font-family: 'Arvo', serif;
+	background: #fff url("images/space-bar-key.png") !important;
+	 background-size: cover !important; 
+
+}
+
